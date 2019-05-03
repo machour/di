@@ -1,11 +1,11 @@
 <?php
 
 
-namespace yii\di;
+namespace Yiisoft\Di;
 
 use Psr\Container\ContainerInterface;
 use Psr\Container\NotFoundExceptionInterface;
-use yii\di\exceptions\NotFoundException;
+use Yiisoft\Di\Exceptions\NotFoundException;
 
 /**
  * This class implements a composite container with support for context switching.

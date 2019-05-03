@@ -5,12 +5,12 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\di;
+namespace Yiisoft\Di;
 
 use Psr\Container\ContainerInterface;
 use Psr\Container\NotFoundExceptionInterface;
-use yii\di\exceptions\InvalidConfigException;
-use yii\di\exceptions\NotInstantiableException;
+use Yiisoft\Di\Exceptions\InvalidConfigException;
+use Yiisoft\Di\Exceptions\NotInstantiableException;
 
 /**
  * Injector is able to analyze callable dependencies based on

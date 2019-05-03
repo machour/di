@@ -15,7 +15,7 @@
 
     <testsuites>
         <testsuite name="Yii di container tests">
-            <directory>./tests/unit</directory>
+            <directory>./tests/Unit</directory>
         </testsuite>
     </testsuites>
 

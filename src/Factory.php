@@ -5,9 +5,9 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\di;
+namespace Yiisoft\Di;
 
-use yii\di\definitions\Normalizer;
+use Yiisoft\Di\Definitions\Normalizer;
 
 class Factory extends Container implements FactoryInterface
 {

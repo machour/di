@@ -5,20 +5,20 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\di;
+namespace Yiisoft\Di;
 
 use Psr\Container\ContainerInterface;
 use ReflectionClass;
 use SplObjectStorage;
-use yii\di\contracts\DeferredServiceProvider;
-use yii\di\contracts\Definition;
-use yii\di\contracts\ServiceProvider;
-use yii\di\definitions\ArrayDefinition;
-use yii\di\definitions\Normalizer;
-use yii\di\exceptions\CircularReferenceException;
-use yii\di\exceptions\InvalidConfigException;
-use yii\di\exceptions\NotFoundException;
-use yii\di\exceptions\NotInstantiableException;
+use Yiisoft\Di\Contracts\DeferredServiceProvider;
+use Yiisoft\Di\Contracts\Definition;
+use Yiisoft\Di\Contracts\ServiceProvider;
+use Yiisoft\Di\Definitions\ArrayDefinition;
+use Yiisoft\Di\Definitions\Normalizer;
+use Yiisoft\Di\Exceptions\CircularReferenceException;
+use Yiisoft\Di\Exceptions\InvalidConfigException;
+use Yiisoft\Di\Exceptions\NotFoundException;
+use Yiisoft\Di\Exceptions\NotInstantiableException;
 
 /**
  * Container implements a [dependency injection](http://en.wikipedia.org/wiki/Dependency_injection) container.
@@ -39,7 +39,7 @@ class Container implements ContainerInterface
      */
     private $building = [];
     /**
-     * @var contracts\DeferredServiceProvider[]|\SplObjectStorage list of providers
+     * @var Contracts\DeferredServiceProvider[]|\SplObjectStorage list of providers
      * deferred to register till their services would be requested
      */
     private $deferredProviders;

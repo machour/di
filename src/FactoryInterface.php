@@ -5,9 +5,9 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\di;
+namespace Yiisoft\Di;
 
-use yii\di\exceptions\InvalidConfigException;
+use Yiisoft\Di\Exceptions\InvalidConfigException;
 
 /**
  * Factory allows for creation of object using runtime parameters.

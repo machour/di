@@ -1,17 +1,17 @@
 <?php
 
 
-namespace yii\di;
+namespace Yiisoft\Di;
 
 use Psr\Container\ContainerInterface;
 use Psr\Container\NotFoundExceptionInterface;
-use yii\di\exceptions\NotFoundException;
+use Yiisoft\Di\Exceptions\NotFoundException;
 
 /**
  * This class implements a composite container for use with containers that support the delegate lookup feature.
  * The goal of the implementation is simplicity.
  * Class CompositeContainer
- * @package yii\di
+ * @package Yiisoft\Di
  */
 class CompositeContainer implements ContainerInterface
 {

@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "yii\\di\\": "src"
+            "Yiisoft\\Di\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "yii\\di\\tests\\": "tests"
+            "Yiisoft\\Di\\Tests\\": "tests"
         }
     },
     "extra": {

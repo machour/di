@@ -5,11 +5,11 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\di;
+namespace Yiisoft\Di;
 
 use Psr\Container\ContainerInterface;
-use yii\di\contracts\Definition;
-use yii\di\exceptions\InvalidConfigException;
+use Yiisoft\Di\Contracts\Definition;
+use Yiisoft\Di\Exceptions\InvalidConfigException;
 
 /**
  * Class Reference allows us to define a dependency to a service in the container in another service definition.

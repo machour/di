@@ -1,11 +1,11 @@
 <?php
 
 
-namespace yii\di;
+namespace Yiisoft\Di;
 
 use Psr\Container\ContainerInterface;
-use yii\di\contracts\Definition;
-use yii\di\definitions\Normalizer;
+use Yiisoft\Di\Contracts\Definition;
+use Yiisoft\Di\Definitions\Normalizer;
 
 /**
  * Class DynamicReference allows us to define a dependency to a service not defined in the container.
